@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Trading Platform</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+    <h1>Crypto Trading Platform</h1>
+</header>
+<main>
+    <!-- Account section -->
+    <section id="account">
+        <div class="account-container">
+            <h2 class="account-title">Your Account</h2>
+            <p class="account-balance">Balance: $<span id="balance">10000.00</span></p>
+            <button id="reset-balance" class="reset-button">Reset Balance</button>
+        </div>
+    </section>
+
+    <!-- Crypto prices section -->
+    <section id="crypto-prices">
+        <h2>Top Cryptocurrencies</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Price (USD)</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody id="prices-table">
+            <!-- Live prices and buttons will be dynamically injected here -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="transactions">
+        <h2>Transaction History</h2>
+        <ul id="transaction-history">
+            <!-- Transactions will be dynamically injected here -->
+        </ul>
+    </section>
+</main>
+
+<!-- Modal Window -->
+<div id="transaction-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h3 id="modal-title">Transaction</h3>
+        <p id="modal-message"></p>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="0.01" step="0.01">
+        <button id="confirm-transaction">Confirm</button>
+    </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
