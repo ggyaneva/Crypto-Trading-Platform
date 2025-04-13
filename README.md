@@ -5,6 +5,17 @@ The Crypto Trading Platform is a modern web-based application that allows users 
 ---
 
 ## Features
+### Screenshots of the platform:
+(media/pic1.png)
+(media/pic2.png)
+
+---
+
+## Demo Video
+
+Watch the platform in action:
+(media/demo.mp4)
+
 
 ### Backend
 1. **Account Management**:
