@@ -11,11 +11,10 @@ The Crypto Trading Platform is a modern web-based application that allows users 
 
 ---
 
-## Demo Video
+### Demo Video
 
-Watch the platform in action:
+Watch the platform in action (you should download it):
 (media/demo.mp4)
-
 
 ### Backend
 1. **Account Management**:
